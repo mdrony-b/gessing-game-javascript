@@ -1,0 +1,38 @@
+.card-container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+.card{
+    background: #ddd;
+    width: 300px;
+    padding: 30px;
+}
+.card .form label{
+    width: 53%;
+    display: inline-block;
+}
+.card .form input[type=number]{
+    width: 40%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.card .form .submit input[type=submit]{
+    padding: 5px;
+    width: 80px;
+    float: right;
+}
+.result{
+    clear: both;
+    padding-top: 5px;
+}
+.background{
+    background: green;
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2rem;
+    color: #fff;
+}
